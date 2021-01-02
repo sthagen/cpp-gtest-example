@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 #include <tribonacci.hpp>
 
-TEST(FibonacciTests, BasicChecks) {
+TEST(tribonacci_tests, basic_values) {
     // 0, 0, 1, 1, 2, 4, 7, 13, 24, 44, 81, 149, 274, 504, 927, 1705, 3136, 5768, 10609, 19513, 35890, 66012, … (sequence A000073 in the OEIS)
     ASSERT_TRUE(tribonacci(0) == 0);
     ASSERT_TRUE(tribonacci(1) == 1);
