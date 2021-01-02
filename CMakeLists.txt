@@ -26,10 +26,10 @@ CPMAddPackage(
 )
 
 CPMAddPackage(
-  NAME googletest
-  GITHUB_REPOSITORY google/googletest
+  NAME cpp-gtest
+  GITHUB_REPOSITORY sthagen/cpp-gtest
   GIT_TAG 389cb68b87193358358ae87cc56d257fd0d80189
-  # Not released but we take some approved commit (above)
+  # Not released but we take some approved commit (above) from proxy
   VERSION 1.10.1
   OPTIONS
       "INSTALL_GTEST OFF"
