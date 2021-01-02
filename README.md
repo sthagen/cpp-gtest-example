@@ -1,2 +1,4 @@
 # cpp-gtest-example
 Experimental example for gtest C++ library per CMake package management.
+
+**Note**: The default branch is `default`.
